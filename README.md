@@ -1,3 +1,20 @@
+
+
+# 🛠️ Run webui
+
+```
+git clone https://github.com/leoleelxh/Chain-of-Zoom-webui
+cd Chain-of-Zoom-webui
+
+conda create -n coz python=3.10
+conda activate coz
+pip install -r requirements.txt
+python gradio_interface_cn.py
+
+```
+
+
+
 # Chain-of-Zoom: Extreme Super-Resolution via Scale Autoregression and Preference Alignment
 
 This repository is the official implementation of [Chain-of-Zoom: Extreme Super-Resolution via Scale Autoregression and Preference Alignment](https://arxiv.org/abs/2505.18600), led by
