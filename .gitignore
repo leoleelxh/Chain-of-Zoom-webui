@@ -1,3 +1,66 @@
+# 推理结果目录
 inference_results/
+
+# Python缓存文件
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# AI模型文件 - 通用规则
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.pkl
+*.pickle
+
+# 特定模型文件
 ram_swin_large_14m.pth
+
+# 模型检查点目录
+ckpt/
+models/
+checkpoints/
+weights/
+
+# 数据集目录（通常很大）
+datasets/
+data/
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# 环境配置文件（可能包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 大型输出文件
+outputs/
+results/
+generated/
